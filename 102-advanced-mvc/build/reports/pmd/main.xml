@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2024-11-26T17:09:37.998">
+<file name="/Users/samueletrapani/OOP/lab10/102-advanced-mvc/src/main/java/it/unibo/mvc/Configuration.java">
+<violation beginline="73" endline="73" begincolumn="25" endcolumn="33" rule="RedundantFieldInitializer" ruleset="Performance" package="it.unibo.mvc" class="Builder" variable="consumed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'consumed'
+</violation>
+<violation beginline="79" endline="79" begincolumn="24" endcolumn="30" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.mvc" class="Builder" method="setMin" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The setter 'setMin' should not return any type except void linguistically
+</violation>
+<violation beginline="88" endline="88" begincolumn="24" endcolumn="30" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.mvc" class="Builder" method="setMax" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The setter 'setMax' should not return any type except void linguistically
+</violation>
+<violation beginline="97" endline="97" begincolumn="24" endcolumn="35" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.mvc" class="Builder" method="setAttempts" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The setter 'setAttempts' should not return any type except void linguistically
+</violation>
+</file>
+<file name="/Users/samueletrapani/OOP/lab10/102-advanced-mvc/src/main/java/it/unibo/mvc/DrawNumberApp.java">
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="20" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="DrawNumberApp" variable="min" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'min' could be replaced by a local variable.
+</violation>
+<violation beginline="18" endline="18" begincolumn="17" endcolumn="20" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="DrawNumberApp" variable="max" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'max' could be replaced by a local variable.
+</violation>
+<violation beginline="19" endline="19" begincolumn="17" endcolumn="25" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="DrawNumberApp" variable="attempts" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'attempts' could be replaced by a local variable.
+</violation>
+<violation beginline="38" endline="38" begincolumn="33" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="DrawNumberApp" method="DrawNumberApp" variable="drawNumberView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'drawNumberView' could be declared final
+</violation>
+</file>
+</pmd>
